@@ -7,7 +7,7 @@ public class Cuadrado : Pieza
 
 En la clase base pueden existir 
 ```csharp
-public abstract // debe ser implementado en la clase hija
+public abstract // este metodo no puede tener logica de negocio
 public virtual // tiene logica de negocio en la clase base y tb puede ser implementado en la clase hija
 ```
 
