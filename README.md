@@ -1,4 +1,4 @@
-# CSharp.2.AbstractClasses
+# CSharp.15.AbstractClasses
 
 Para que haya una clase abstracta debe existir herencia:
 ```csharp
