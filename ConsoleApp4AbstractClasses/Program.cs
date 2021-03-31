@@ -6,9 +6,12 @@ namespace ConsoleApp4AbstractClasses
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        {            
             Cuadrado cuadrado = new Cuadrado(3);
+            Console.WriteLine($"Desde clase cuadrado => Area: {cuadrado.Area()}");
+            
+            Pieza cuadrado2 = new Cuadrado(12);
+            Console.WriteLine($"Desde clase pieza => Area: {cuadrado2.Area()}");
         }
     }
 }
